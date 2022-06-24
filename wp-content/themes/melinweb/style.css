@@ -1,0 +1,323 @@
+/*
+ Theme Name:   melinweb
+ Theme URI:    https://melinweb.fr
+ Description:  melinweb theme
+ Author:       Melissa
+ Author URI:   https://melinweb.fr
+ Template:     twentyseventeen
+ Version:      1.0.0
+*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a:not(.navbar-brand-link, .site-footer a) {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.anchor {
+    visibility: hidden;
+}
+
+.social-navigation a {
+    background-color: rgba(235, 161, 0, 0.815);
+}
+
+.error-404 .page-title {
+    font-size: 30px;
+    text-transform: none;
+}
+
+.error-404 img {
+    width: 500px;
+}
+
+.back-home {
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+
+/* header */
+
+.site header {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+}
+
+.navbar.my-nav {
+    background-color: #fff!important;
+}
+
+.navbar.navbar-expand-lg button {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.navbar-brand a::before {
+    content: "mel";
+    color: rgba(235, 161, 0, 0.753);
+}
+
+.navbar-collapse {
+    z-index: 99;
+}
+
+.nav-item {
+    border-bottom: transparent 2px solid;
+}
+
+.nav-item a {
+    padding: 0;
+}
+
+.nav-item:hover {
+    transition-duration: 270ms;
+    border-bottom: rgba(235, 161, 0, 0.692) 2px solid;
+}
+
+li.nav-item .nav-link {
+    font-size: 1.1em;
+    color: rgba(8, 8, 8, 0.418);
+}
+
+
+/* Intro */
+
+.avatar-img img {
+    border-radius: 50%;
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.first-last-name {
+    font-size: 1.8em;
+}
+
+.firstname {
+    color: #000;
+}
+
+.hero img {
+    width: auto;
+    height: auto;
+}
+
+
+/* Formations & Skills */
+
+.formations-skills {
+    font-size: 1.4em;
+    color: rgba(235, 161, 0, 0.753);
+}
+
+.form-excerpt p {
+    margin-bottom: 0;
+}
+
+.fa-circle-notch {
+    color: rgba(235, 161, 0, 0.966);
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-title {
+    font-size: 0.8em;
+}
+
+.date,
+.intro {
+    font-weight: 600;
+    color: rgba(235, 161, 0, 0.815);
+}
+
+.skills-item {
+    padding: 0.4em 0.7em 0.4em;
+    line-height: 36px;
+    background-color: rgba(235, 161, 0, 0.808);
+    border-radius: 18px;
+    color: #fff;
+}
+
+li .skills-item:hover {
+    background-color: rgb(235, 161, 0);
+}
+
+.skills li {
+    display: inline-block;
+}
+
+.mention {
+    padding: 4px;
+    font-weight: 600;
+    background-color: rgba(235, 161, 0, 0.815);
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.opquast img {
+    width: 6em;
+    height: 4em;
+}
+
+.circle-exp-type {
+    font-size: 0.5em;
+}
+
+
+/* Projects */
+
+.proj-item {
+    box-shadow: none;
+    /* border: none; */
+    border-radius: 0px;
+}
+
+.img-proj img {
+    object-fit: cover;
+    max-width: 100%;
+    height: 10vw;
+    opacity: 0.7;
+}
+
+.meta-formation small {
+    padding: 0px;
+}
+
+.proj-links a {
+    color: #000;
+}
+
+.link-icon {
+    font-size: 1.7em;
+}
+
+
+/* Contact */
+
+input:not(input[type="submit"]),
+textarea {
+    border: rgba(0, 0, 0, 0.212) 1px solid!important;
+}
+
+input[type="submit"] {
+    background-color: rgba(235, 161, 0, 0.808);
+    font-weight: normal;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: rgba(235, 161, 0, 0.966);
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:766px) {
+    .none {
+        display: none;
+    }
+    .avatar-img {
+        margin-top: 30px;
+    }
+    .avatar-img img {
+        margin-bottom: 20px;
+        box-shadow: none;
+    }
+    /* Projects */
+    .proj-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/** Mobile **/
+
+@media screen and (min-width:1368px) and (max-width:1564px) {
+    /* Projects */
+    .proj-item img {
+        width: 100%;
+        /* height: 12em; */
+    }
+}
+
+@media screen and (min-width:1288px) and (max-width:1366px) {
+    /* Projects */
+    .proj-item img {
+        width: 100%;
+        /* height: 12em; */
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1286px) {
+    /* Projects */
+    .proj-item img {
+        width: 100%;
+        /* height: 10em; */
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:428px) {
+    .nav-item:hover {
+        border-bottom: none;
+    }
+    .avatar-img img {
+        width: 15em;
+        /* height: 15em; */
+    }
+}
+
+
+/** Tablet **/
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .nav-item:hover {
+        border-bottom: none;
+    }
+    .avatar-img img {
+        width: 11em;
+        height: 11em;
+    }
+}
+
+@media screen and (min-width:1080px) and (max-width:1194px) {
+    .avatar-img img {
+        width: 14em;
+        height: 14em;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1366px) {
+    .avatar-img img {
+        width: 15em;
+        height: 15em;
+    }
+}
