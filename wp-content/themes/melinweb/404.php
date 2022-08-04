@@ -11,7 +11,7 @@
 			<img src="<?php bloginfo('url'); ?>/wp-content/themes/melinweb/assets/images/not-found.jpg" alt="404 image" class="mx-auto">
 		</section><!-- .error-404 -->
 	</main><!-- #main -->
-</div><!-- #primary -->ljlkj
+</div><!-- #primary -->
 
 <?php
 get_footer();
