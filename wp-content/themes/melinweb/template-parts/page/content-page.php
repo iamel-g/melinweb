@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="mb-5 mt-5 pb-5 text-center">
 				<div class="avatar-img mb-2">
-					<img src="<?php bloginfo('url'); ?>/wp-content/themes/melinweb/assets/images/avatar_mel.jpeg" alt="Avatar" class="img-fluid">
+					<img src="<?php bloginfo('url'); ?>/wp-content/themes/melinweb/assets/images/avatar_twitter.png" alt="Avatar" class="img-fluid">
 				</div>
 				<div>
 					<h1 class="m-0 first-last-name"><span class="firstname">Melissa</span> GALVAN</h1>
