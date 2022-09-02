@@ -2,15 +2,20 @@
 
 <footer id="colophon" class="site-footer bg-dark text-light" role="contentinfo">
 	<ul class="nav row col-md-4 mx-auto text-center mt-4">
-		<li class="col-md-6 col-lg-6">
+		<li class="col-md-6 col-lg-4">
 			<a href="https://linkedin.com/in/mgvn/" target="_blank"><i class="fa-brands fa-linkedin fa-3x text-light"></i></a>
 			<p>in/mgvn</p>
 		</li>
-		<li class="col-md-6 col-lg-6">
-			<a href="https://twitter.com/melinwebfr" target="_blank"><i class="fa-brands fa-twitter-square fa-3x text-light"></i></i></a>
-			<p>@melinwebfr</p>
+		<li class="col-md-6 col-lg-4">
+			<a href="https://twitter.com/iamel_g" target="_blank"><i class="fa-brands fa-twitter-square fa-3x text-light"></i></a>
+			<p>@iamel_g</p>
+		</li>
+		<li class="col-md-6 col-lg-4">
+			<a href="https://hackmd.io/@mgalvan" target="_blank"><i class="fa-solid fa-file-lines fa-3x text-light"></i></a>
+			<p>@mgalvan</p>
 		</li>
 	</ul>
+
 	<div class="text-center">
 		<p>Melissa Galvan - 2022</p>
 	</div>
