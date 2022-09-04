@@ -5,6 +5,18 @@ function wpm_enqueue_styles()
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
 }
 
+function my_scripts_method()
+{
+    wp_enqueue_script(
+        'custom-script',
+        get_stylesheet_directory_uri() . '/script.js',
+        array('jquery')
+    );
+}
+
+add_action('wp_enqueue_scripts', 'my_scripts_method');
+
+
 // Disable plugings automatic updates plugins & themes
 add_filter('auto_update_plugin', '__return_false');
 add_filter('auto_update_theme', '__return_false');
