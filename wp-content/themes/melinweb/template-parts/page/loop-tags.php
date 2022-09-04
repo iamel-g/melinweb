@@ -8,9 +8,9 @@ $tags = get_terms(array(
   'hide_empty' => false
 ));
 ?>
-<div class="row mx-0 mt-5 pt-3">
+<div class="row justify-content-center">
   <?php foreach ($tags as $key => $item) { ?>
-    <div class="col-md-6 col-lg-6 col-xl-4 mt-4">
+    <div class="col-md-6 col-xl-4 col-lg-4 mb-4">
       <h4 class="text-light"><?php echo $item->name; ?></h4>
       <ul class="row skills m-0">
         <?php // Get childrens per term
