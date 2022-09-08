@@ -16,6 +16,7 @@ html {
 
 body {
     font-family: 'Source Code Pro', serif;
+    cursor: zoom-in;
 }
 
 ul {
@@ -160,7 +161,6 @@ h3 {
 }
 
 li .skills-item:hover {
-    /* background-color: rgb(235, 161, 0); */
     background-color: #44e7e7f1;
     color: #000;
 }
